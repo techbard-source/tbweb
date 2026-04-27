@@ -30,6 +30,21 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   const FolderContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { tree, fileData, allFiles, cfg } = props
 
+    const showFolderListing = fileData.frontmatter?.showFolderListing ?? true
+    if (!showFolderListing) {
+      const content = (
+        (tree as Root).children.length === 0
+          ? fileData.description
+          : htmlToJsx(fileData.filePath!, tree)
+      ) as ComponentChildren
+
+      return (
+        <div class="popover-hint">
+          <article class={fileData.frontmatter?.cssclasses?.join(" ") ?? ""}>{content}</article>
+        </div>
+      )
+    }
+
     const trie = (props.ctx.trie ??= trieFromAllFiles(allFiles))
     const folder = trie.findNode(fileData.slug!.split("/"))
     if (!folder) {

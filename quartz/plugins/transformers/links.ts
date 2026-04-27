@@ -109,6 +109,12 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                     transformOptions,
                   )
 
+                  // Add data-no-popover for download links (zip, pdf, etc.)
+                  const downloadExtensions = [".zip", ".pdf", ".png", ".jpg", ".jpeg", ".gif", ".exe"]
+                  if (downloadExtensions.some((ext) => dest.toLowerCase().endsWith(ext))) {
+                    node.properties["data-no-popover"] = true
+                  }
+
                   // url.resolve is considered legacy
                   // WHATWG equivalent https://nodejs.dev/en/api/v18/url/#urlresolvefrom-to
                   const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))

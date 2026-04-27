@@ -56,6 +56,14 @@ function startLoading() {
   }, 100)
 }
 
+function stopLoading() {
+  const loadingBar = document.querySelector(".navigation-progress") as HTMLElement
+  if (loadingBar) {
+    loadingBar.style.width = "100%"
+    setTimeout(() => loadingBar.remove(), 200)
+  }
+}
+
 let isNavigating = false
 let p: DOMParser
 async function _navigate(url: URL, isBack: boolean = false) {
@@ -148,7 +156,22 @@ window.spaNavigate = navigate
 function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
-      const { url } = getOpts(event) ?? {}
+      const opts = getOpts(event)
+      const { url } = opts ?? {}
+      
+      // Check if it's a download link - if so, let browser handle it normally with progress bar
+      const a = (event.target as Element).closest("a")
+      if (a && url) {
+        const href = a.getAttribute("href")
+        if (a.dataset.noPopover === "true" || href?.endsWith(".zip") || href?.endsWith(".pdf") || href?.endsWith(".exe")) {
+          startLoading()
+          setTimeout(() => {
+            stopLoading()
+          }, 500)
+          return // Allow default browser download behavior
+        }
+      }
+      
       // dont hijack behaviour, just let browser act normally
       if (!url || event.ctrlKey || event.metaKey) return
       event.preventDefault()

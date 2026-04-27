@@ -18,11 +18,11 @@ Monitors keyboard input activity in real time so you can quickly spot key behavi
 
 ## Guide
 
-- [README.md](./README)
+- [README_en.md](programs/keypulse-keyboard-diagnostic-monitor/README_en)
 
 ## Preview
 
-- [Screenshots](./preview)
+- [Screenshots](programs/keypulse-keyboard-diagnostic-monitor/preview)
 
 ## Download
 
