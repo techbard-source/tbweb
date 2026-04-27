@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2025-04-22
+showFolderListing: false
 ---
 
 # About
