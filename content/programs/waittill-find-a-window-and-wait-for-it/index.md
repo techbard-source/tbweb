@@ -16,7 +16,7 @@ A console tool to find a window and wait for it.
 
 ## Guide
 
-- [README_en.md](programs/waittill-find-a-window-and-wait-for-it/README_en)
+- [README.md](programs/waittill-find-a-window-and-wait-for-it/README)
 
 ## Preview
 

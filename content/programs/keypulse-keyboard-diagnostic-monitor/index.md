@@ -18,7 +18,7 @@ Monitors keyboard input activity in real time so you can quickly spot key behavi
 
 ## Guide
 
-- [README_en.md](programs/keypulse-keyboard-diagnostic-monitor/README_en)
+- [README.md](programs/keypulse-keyboard-diagnostic-monitor/README)
 
 ## Preview
 

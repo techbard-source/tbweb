@@ -16,7 +16,7 @@ SyncRun is a multi-task scheduler that enables synchronized execution of process
 
 ## Guide
 
-- [README_en.md](programs/syncrun-multitask-scheduler/README_en)
+- [README.md](programs/syncrun-multitask-scheduler/README)
 
 ## Preview
 

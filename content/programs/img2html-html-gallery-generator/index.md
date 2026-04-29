@@ -16,7 +16,7 @@ In-depth analysis tools for image processing.
 
 ## Guide
 
-- [README_en.md](programs/img2html-html-gallery-generator/README_en)
+- [README.md](programs/img2html-html-gallery-generator/README)
 
 ## Preview
 
