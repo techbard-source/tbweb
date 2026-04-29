@@ -1,3 +1,3 @@
 # Screenshots
 
-![Screenshot 1](Windows-Projects/img2html-html-gallery-generator/1.png)
+![Screenshot 1](windows-projects/img2html-html-gallery-generator/1.png)

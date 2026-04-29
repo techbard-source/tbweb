@@ -17,11 +17,11 @@ SyncRun is a Windows task scheduler designed for manual task registration and on
 
 ## Guide
 
-- [README.md](Windows-Projects/syncrun-multitask-scheduler/README)
+- [README.md](windows-projects/syncrun-multitask-scheduler/README)
 
 ## Preview
 
-- [Screenshots](Windows-Projects/syncrun-multitask-scheduler/preview)
+- [Screenshots](windows-projects/syncrun-multitask-scheduler/preview)
 
 ## Download
 

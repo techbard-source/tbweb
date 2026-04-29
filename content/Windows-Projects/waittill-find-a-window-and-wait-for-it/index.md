@@ -16,12 +16,12 @@ A console tool to find a window and wait for it.
 
 ## Guide
 
-- [README.md](Windows-Projects/waittill-find-a-window-and-wait-for-it/README)
+- [README.md](windows-projects/waittill-find-a-window-and-wait-for-it/README)
 
 ## Preview
 
-- [Screenshots](Windows-Projects/waittill-find-a-window-and-wait-for-it/preview)
+- [Screenshots](windows-projects/waittill-find-a-window-and-wait-for-it/preview)
 
 ## Download
 
-- [WaitTill_v0.171.zip](Windows-Projects/waittill-find-a-window-and-wait-for-it/WaitTill_v0.171.zip)
+- [WaitTill_v0.171.zip](windows-projects/waittill-find-a-window-and-wait-for-it/WaitTill_v0.171.zip)

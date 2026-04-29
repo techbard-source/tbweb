@@ -18,11 +18,11 @@ Monitors keyboard input activity in real time so you can quickly spot key behavi
 
 ## Guide
 
-- [README.md](Windows-Projects/keypulse-keyboard-diagnostic-monitor/README)
+- [README.md](windows-projects/keypulse-keyboard-diagnostic-monitor/README)
 
 ## Preview
 
-- [Screenshots](Windows-Projects/keypulse-keyboard-diagnostic-monitor/preview)
+- [Screenshots](windows-projects/keypulse-keyboard-diagnostic-monitor/preview)
 
 ## Download
 

@@ -16,11 +16,11 @@ In-depth analysis tools for image processing.
 
 ## Guide
 
-- [README.md](Windows-Projects/img2html-html-gallery-generator/README)
+- [README.md](windows-projects/img2html-html-gallery-generator/README)
 
 ## Preview
 
-- [Screenshots](Windows-Projects/img2html-html-gallery-generator/preview)
+- [Screenshots](windows-projects/img2html-html-gallery-generator/preview)
 
 ## Download
 
