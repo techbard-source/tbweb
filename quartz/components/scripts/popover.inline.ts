@@ -121,6 +121,9 @@ function clearActivePopover() {
 }
 
 document.addEventListener("nav", () => {
+  const isTouchDevice = window.matchMedia("(pointer: coarse)").matches
+  if (isTouchDevice) return
+
   const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
     link.addEventListener("mouseenter", mouseEnterHandler)
