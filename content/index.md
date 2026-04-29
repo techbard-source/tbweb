@@ -13,7 +13,7 @@ Welcome to my personal website.
 
 ## Programs
 
-- [[programs/|Windows Projects]]
+- [[Windows-Projects/|Windows Projects]]
 
 ## Blog
 
