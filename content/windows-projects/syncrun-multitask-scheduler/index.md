@@ -25,4 +25,4 @@ SyncRun is a Windows task scheduler designed for manual task registration and on
 
 ## Download
 
-- [SyncRun_v0.206.zip](./SyncRun_v0.206.zip)
+- [SyncRun_v0.206.zip](./SyncRun_v0.206.zip) (password: `techbard`)

@@ -24,4 +24,4 @@ A Windows tool that sends programmable keystrokes to any target application wind
 
 ## Download
 
-- [FlexKey_v0.031.zip](windows-projects/flexkey-sends-keystrokes-to-any-application/FlexKey_v0.031.zip)
+- [FlexKey_v0.031.zip](windows-projects/flexkey-sends-keystrokes-to-any-application/FlexKey_v0.031.zip) (password: `techbard`)

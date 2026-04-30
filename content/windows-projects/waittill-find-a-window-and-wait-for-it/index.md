@@ -24,4 +24,4 @@ A console tool to find a window and wait for it.
 
 ## Download
 
-- [WaitTill_v0.171.zip](windows-projects/waittill-find-a-window-and-wait-for-it/WaitTill_v0.171.zip)
+- [WaitTill_v0.171.zip](windows-projects/waittill-find-a-window-and-wait-for-it/WaitTill_v0.171.zip) (password: `techbard`)

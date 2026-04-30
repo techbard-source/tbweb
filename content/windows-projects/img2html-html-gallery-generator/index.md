@@ -24,4 +24,4 @@ In-depth analysis tools for image processing.
 
 ## Download
 
-- [Img2Html_v0.145.zip](./Img2Html_v0.145.zip)
+- [Img2Html_v0.145.zip](./Img2Html_v0.145.zip) (password: `techbard`)

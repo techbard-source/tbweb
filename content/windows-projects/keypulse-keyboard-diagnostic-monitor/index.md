@@ -26,4 +26,4 @@ Monitors keyboard input activity in real time so you can quickly spot key behavi
 
 ## Download
 
-- [KeyPulse_v0.118.zip](./KeyPulse_v0.118.zip)
+- [KeyPulse_v0.118.zip](./KeyPulse_v0.118.zip) (password: `techbard`)
