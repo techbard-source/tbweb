@@ -1,3 +1,7 @@
 name = "tbweb"
 pages_build_output_dir = "public"
 compatibility_date = "2026-04-29"
+
+[[kv_namespaces]]
+binding = "VISITOR_COUNTER"
+id = "4d4ee8b0e36144638959a05fbcf46ea9"

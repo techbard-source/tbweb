@@ -8,9 +8,10 @@ interface Options {
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Footer: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    const isHome = fileData.slug === "index"
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
@@ -24,6 +25,28 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
+        {isHome && (
+          <p class="visitor-counter" style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--gray);">
+            Total visits: <span id="visitor-count">-</span>
+          </p>
+        )}
+        {isHome && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function() {
+                  var el = document.getElementById('visitor-count');
+                  if (!el) return;
+                  var inc = !localStorage.getItem('_visited');
+                  if (inc) localStorage.setItem('_visited', '1');
+                  fetch('/count' + (inc ? '?inc=1' : '')).then(function(r){return r.json()}).then(function(d){
+                    el.textContent = d.count.toLocaleString();
+                  }).catch(function(){});
+                })();
+              `,
+            }}
+          />
+        )}
       </footer>
     )
   }

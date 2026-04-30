@@ -12,6 +12,7 @@ SyncRun is a Windows task scheduler designed for manual task registration and on
 
 ## Version History
 
+- v0.207: [Fix] MANUAL tasks no longer appear in the scheduled section (above separator) when no scheduled tasks exist.
 - v0.206: Fixed a bug where the task runner incorrectly logged names and processed tasks.
 - v0.205: Initial release.
 
@@ -25,4 +26,4 @@ SyncRun is a Windows task scheduler designed for manual task registration and on
 
 ## Download
 
-- [SyncRun_v0.206.zip](./SyncRun_v0.206.zip) (password: `techbard`)
+- [SyncRun_v0.207.zip](./SyncRun_v0.207.zip) (password: `techbard`)
